@@ -20,17 +20,34 @@ public:
     // Verify the entered PIN
     bool pinVerify() {}
 
-    // Deposit funds into the account
-    void deposit() {}
-
-    // Withdraw funds from the account
-    bool withdraw() {} // check if balance is larger than requested withdraw amount
-
     // Delete the account
     void deleteAccount() {}
 
     // method to get the account number
     int getAccountNo() {}
+
+    // method to get the PIN
+    int getPin() {}
+};
+
+// Transaction class to hold transaction type, amount, and date stamp
+class Transaction {
+private:
+
+// initialize variables for transaction type, amount, and date stamp
+
+public:
+    // Constructor to initialize transaction details
+    Transaction() {}
+
+    // Verify the entered PIN
+    bool pinVerify() {}
+
+    // Deposit funds into the account
+    void deposit() {}
+
+    // Withdraw funds from the account
+    bool withdraw() {} // check if balance is larger than requested withdraw amount
 
     // method to get the PIN
     int getPin() {}
